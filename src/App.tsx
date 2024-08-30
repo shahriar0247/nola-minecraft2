@@ -5,8 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import Groups from "./pages/Groups";
 import LandingPage from "./pages/LandingPage";
+import Groups from "./pages/Groups";
 
 function App() {
   const action = useNavigationType();
@@ -28,7 +28,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/landing-page-13":
+      case "/groups":
         title = "";
         metaDescription = "";
         break;
@@ -50,8 +50,8 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Groups />} />
-      <Route path="/landing-page-13" element={<LandingPage />} />
+      <Route path="/" element={<LandingPage />} />
+      <Route path="/groups" element={<Groups />} />
     </Routes>
   );
 }

@@ -139,7 +139,7 @@ const LandingPage: FunctionComponent = () => {
                 className="absolute top-[0px] left-[408px] rounded-3xs w-[222px] h-[164px] object-cover z-[4]"
                 loading="lazy"
                 alt=""
-                src="/picture7@2x.png"
+                src="/picture71@2x.png"
               />
             </div>
           </div>
